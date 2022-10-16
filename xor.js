@@ -12,3 +12,13 @@ model.compile({
     metrics: ['accuracy']
 });
 
+x = [[0,0], [0,1], [1,0], [1,1]];
+y = [[0], [1], [1], [0]];
+y = [[1,0],[0,1],[0,1],[1,0]];
+
+y = tf.tensor2d(y);
+x = tf.tensor2d(x);
+
+//console.log(x);
+//console.log(y);
+
